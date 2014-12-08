@@ -86,6 +86,7 @@ var sortable = new Sortable(el, {
 		// same properties as onUpdate
 	},
 
+	// Attempt to drag a filtered element
 	onFilter: function (/**Event*/evt) {
 		var itemEl = evt.item;  // HTMLElement receiving the `mousedown|tapstart` event.
 	}
